@@ -1,0 +1,2 @@
+1. The bug was that the inputs provided were strings instead of numbers, forcing the function to do concatenation instead of actual addition as desired
+2. I would fix it by converting the inputs to be numbers if possible and then doing the addition. If the input can't be converted into a number, NaN will be outputted
